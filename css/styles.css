@@ -1,0 +1,83 @@
+/*.hidden {
+  display: none;
+}*/
+
+/*table {
+  border-width: 1px;
+  border-color: black;
+}*/
+
+td {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 50px;
+}
+
+td:hover {
+  background-color: #D9D7D7;
+}
+
+h1 {
+  text-align: center;
+  color: #363636
+}
+
+.player {
+  margin-top: 40px;
+  text-align: center;
+}
+
+table {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-image: url("../img/strange_bullseyes.png");
+}
+
+.container {
+  margin-top: 40px;
+  background-color: white;
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+.win {
+  color: red;
+}
+
+.modal-header {
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.modal-body {
+  padding: 0px;
+  text-align: center;
+}
+
+.modal-footer {
+  padding: 8px;
+}
+
+.modal-content {
+  max-width: 350px;
+}
+
+.btn-xs {
+  padding: 3px 7px;
+  font-weight: 400px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #363636
+}
+
+ul {
+  text-align: left;
+}

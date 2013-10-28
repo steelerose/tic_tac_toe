@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tic Tac Toe</h1>
+      <hr>
+
+      <div class="modal fade" id="modalPlayers" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Choose Your Opponent</h4>
+            </div>
+            <div class="modal-body">
+              <ul><h4>Please select one:</h4>
+              <li>Two human players</li>
+              <li>Human vs. Computer (easy mode)</li>
+              <li>Human vs. Computer (hard mode)</li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary btn-xs pvp" data-dismiss="modal">PvP</button>
+              <button type="button" class="btn btn-primary btn-xs computer-easy" data-dismiss="modal">Computer(easy)</button>
+              <button type="button" class="btn btn-primary btn-xs computer-hard" data-dismiss="modal">Computer(hard)</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="player"></p>
+
+      <table class="table-bordered">
+        <tr value="0">
+          <td value="0"></td>
+          <td value="1"></td>
+          <td value="2"></td>
+        </tr>
+        <tr value="1">
+          <td value="0"></td>
+          <td value="1"></td>
+          <td value="2"></td>
+        </tr>
+        <tr value="2">
+          <td value="0"></td>
+          <td value="1"></td>
+          <td value="2"></td>
+        </tr>
+      </table>
+
+      <div class="modal fade" id="modalResults" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title">Game over</h4>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary btn-xs new-game" data-dismiss="modal">New Game</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>  
+  </body>
+</html>
