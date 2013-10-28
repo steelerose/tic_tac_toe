@@ -1,4 +1,4 @@
-tic_tac_toe
+Tic Tac Toe
 ===========
 
 Play Tic Tac Toe against an intelligent computer opponent
