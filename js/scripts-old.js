@@ -190,59 +190,5 @@ $(function() {
   })
 });
 
-// FIX: find if player wins in 2+ directions at once
-// FIX: program needs to handle if you click on a used square (broke when we added AI)
-// FIX: fadeToggle or other slow method of adding computer's move
-// FIX: computer selects random best move
-// FIX: computer doesn't always play second
-// FIX: user can play against human OR computer
-
-
-
-/*
--------------
-| a | b | c |
-|-----------|
-| d | e | f |
-|-----------|
-| g | h | i |
--------------
-
-
-[a, b, c, d, e, f, g, h, i]
-
-[abc, def, ghi, adg, beh, cfi, aei, gec]
-
-   a = [1,  0,  0,  1,  0,  0,  1,  0]
-   b = [1,  0,  0,  0,  1,  0,  0,  0]
-   c = [1,  0,  0,  0,  0,  1,  0,  1]
-   d = [0,  1,  0,  1,  0,  0,  0,  0]
-   e = [0,  1,  0,  0,  1,  0,  1,  1]
-   f = [0,  1,  0,  0,  0,  1,  0,  0]
-   g = [0,  0,  1,  1,  0,  0,  0,  1]
-   h = [0,  0,  1,  0,  1,  0,  0,  0]
-   i = [0,  0,  1,  0,  0,  1,  1,  0]
-
-game = [0,  1,  0,  1,  1, -1,  0,  2]
-
-
-if board has -2, select option for -3
-
-if board has 2, select option for 1
-
-else, select option that changes the most (1 / -1)s
-
-*/
-
-
-
-
-
-
-
-
-
-
-
 
 
