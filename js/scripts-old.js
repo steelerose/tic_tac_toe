@@ -127,7 +127,6 @@ $(function() {
   game.initialize();
   var row, column, player, winner = false, catsGame = false;
   // $("#modalPlayers").modal("show");
-
   $(".player").append("<h2>" + game.currentPlayer() + "'s turn</h2>");
 
   $("td").click(function() {

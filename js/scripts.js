@@ -161,7 +161,7 @@ $(function() {
         // computer turn
         game.computerLogic.joinMove([row, column], false);
         var computerMove = game.computerLogic.bestMove();
-        $("tr[value*=" + computerMove[0] + "]").children("td[value*=" + computerMove[1] + "]").append(game.currentPlayer());
+        $("tr[value*=" + computerMove[0] + "]").children("td[value*=" + computerMove[1] + "]").append(game.currentPlayer()).hide().fadeIn(700);
         game.computerLogic.joinMove(computerMove, true);
         game.table.playTurn(computerMove[0], computerMove[1], game.currentPlayer());
 
